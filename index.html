@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotstar_clone</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <img src="image/logo.png" alt="logo" title="logo" class="brandlogo">
+        <ul class="nav-links">
+            <li class="nav-items"><a href="\">TV</a></li>
+            <li class="nav-items"><a href="\">Movies</a></li>
+            <li class="nav-items"><a href="\">Sports</a></li>
+            <li class="nav-items"><a href="\">Premium</a></li>
+        </ul>
+        <div class="right-container">
+            <input type="text" class="search-box" placeholder="search">
+            <button class="sub-btn">Subscribe</button>
+            <a href="#" class="login-link">Login</a>
+
+        </div>
+    </nav>
+
+    <!-- slidersection -->
+    <div class="carousel-container">
+        <div class="carousel">
+            <!-- <div class="slider">
+                <div class="slide-content">
+                    <h1 class="movie-title">Loki</h1>
+                    <p class="movie-des">The mercurial villain Loki resumes his role as the God of Mischief in a new series that takes place after the events of "Avengers"</p>
+                </div>
+                <img src="image/slider1.png" alt="sliderimgae" title="imageslider"/>
+            </div> -->
+        </div>
+    </div>
+    <div class="video-card-container">
+        <div class="video-card">
+          <img src="image/disney.png" alt="disney" class="video-card-image" />
+          <video src="video/disney.mp4" muted loop class="card-video"></video>
+        </div>
+        <div class="video-card">
+          <img src="image/pixer.png" alt="pixar" class="video-card-image" />
+          <video src="video/pixar.mp4" muted loop class="card-video"></video>
+        </div>
+        <div class="video-card">
+          <img src="image/marval.png" alt="marval" class="video-card-image" />
+          <video src="video/marvel.mp4" muted loop class="card-video"></video>
+        </div>
+        <div class="video-card">
+          <img src="image/satwar.png" alt="satwar" class="video-card-image" />
+          <video src="video/star-war.mp4" muted loop class="card-video"></video>
+        </div>
+        <div class="video-card">
+          <img
+            src="image/gs.png"
+            alt="disney"
+            class="video-card-image"
+          />
+          <video
+            src="video/geographic.mp4"
+            muted
+            loop
+            class="card-video"
+          ></video>
+        </div>
+      </div>
+
+    <!--  -->
+    <h1 class="heading">Recommended For You</h1>
+    <div class="movies-list">
+        <button class="pre-btn" title="btn"><img src="image/pre.png" alt="button"></button>
+        <button class="next-btn" title="btn"><img src="image/next.png" alt="button"></button>
+        <div class="card-container">
+            <div class="card">
+                <img src="image/recom1.png" class="card-img" alt="" />
+                <div class="card-body">
+                  <h2 class="name">Loki</h2>
+                  <h6 class="desc">Lorem ipsum dolor sit amet.</h6>
+                  <button class="watchlist-btn">add to watchlist</button>
+                </div>
+              </div>
+              <div class="card">
+                <img src="image/recom2.png" class="card-img" alt="" />
+                <div class="card-body">
+                  <h2 class="name">Mulan</h2>
+                  <h6 class="desc">Lorem ipsum dolor sit amet.</h6>
+                  <button class="watchlist-btn">add to watchlist</button>
+                </div>
+              </div>
+              <div class="card">
+                <img src="image/recom3.png" class="card-img" alt="" />
+                <div class="card-body">
+                  <h2 class="name">Movie Name</h2>
+                  <h6 class="desc">Lorem ipsum dolor sit amet.</h6>
+                  <button class="watchlist-btn">add to watchlist</button>
+                </div>
+              </div>
+              <div class="card">
+                <img src="image/recom4.png" class="card-img" alt="" />
+                <div class="card-body">
+                  <h2 class="name">Avengers</h2>
+                  <h6 class="desc">Lorem ipsum dolor sit amet.</h6>
+                  <button class="watchlist-btn">add to watchlist</button>
+                </div>
+              </div>
+              <div class="card">
+                <img src="image/recom5.png" class="card-img" alt="" />
+                <div class="card-body">
+                  <h2 class="name">thor</h2>
+                  <h6 class="desc">Lorem ipsum dolor sit amet.</h6>
+                  <button class="watchlist-btn">add to watchlist</button>
+                </div>
+              </div>
+              <div class="card">
+                <img src="image/recom6.png" class="card-img" alt="" />
+                <div class="card-body">
+                  <h2 class="name">Avengers</h2>
+                  <h6 class="desc">Lorem ipsum dolor sit amet.</h6>
+                  <button class="watchlist-btn">add to watchlist</button>
+                </div>
+              </div>
+              <div class="card">
+                <img src="image/recom7.png" class="card-img" alt="" />
+                <div class="card-body">
+                  <h2 class="name">Movie Name</h2>
+                  <h6 class="desc">Lorem ipsum dolor sit amet.</h6>
+                  <button class="watchlist-btn">add to watchlist</button>
+                </div>
+              </div>
+              <div class="card">
+                <img src="image/recom8.png" class="card-img" alt="" />
+                <div class="card-body">
+                  <h2 class="name">Movie Name</h2>
+                  <h6 class="desc">Lorem ipsum dolor sit amet.</h6>
+                  <button class="watchlist-btn">add to watchlist</button>
+                </div>
+              </div>
+              <div class="card">
+                <img src="image/recom9.png" class="card-img" alt="" />
+                <div class="card-body">
+                  <h2 class="name">Movie Name</h2>
+                  <h6 class="desc">Lorem ipsum dolor sit amet.</h6>
+                  <button class="watchlist-btn">add to watchlist</button>
+                </div>
+              </div>
+              <div class="card">
+                <img src="image/recom10.png" class="card-img" alt="" />
+                <div class="card-body">
+                  <h2 class="name">Movie Name</h2>
+                  <h6 class="desc">Lorem ipsum dolor sit amet.</h6>
+                  <button class="watchlist-btn">add to watchlist</button>
+                </div>
+              </div>
+              <div class="card">
+                <img src="image/recom11.png" class="card-img" alt="" />
+                <div class="card-body">
+                  <h2 class="name">Movie Name</h2>
+                  <h6 class="desc">Lorem ipsum dolor sit amet.</h6>
+                  <button class="watchlist-btn">add to watchlist</button>
+                </div>
+              </div>
+              <div class="card">
+                <img src="image/recom12.png" class="card-img" alt="" />
+                <div class="card-body">
+                  <h2 class="name">Movie Name</h2>
+                  <h6 class="desc">Lorem ipsum dolor sit amet.</h6>
+                  <button class="watchlist-btn">add to watchlist</button>
+                </div>
+              </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+          <div>
+            <ul class="foot-links">
+              <li><a href="#" class="foot-items">About Disney</a></li>
+              <li><a href="#" class="foot-items">Terms of Use</a></li>
+              <li><a href="#" class="foot-items">Privacy Policy</a></li>
+              <li><a href="#" class="foot-items">FAQ</a></li>
+              <li><a href="#" class="foot-items">Feedback</a></li>
+              <li><a href="#" class="foot-items">Careers</a></li>
+            </ul>
+            <p class="copyright">
+              © 2022 STAR. All Rights Reserved. HBO, Home Box Office and all
+              related channel and programming logos are service marks of, and all
+              related programming visuals and elements are the property of, Home
+              Box Office, Inc. All rights reserved.
+            </p>
+          </div>
+          <div>
+            <div class="row text-center">
+              <h4 style="color: #fff;">Download App</h4>
+              <br/>
+                  <p>
+                    <div class="app">
+                      <a href="/" class="btn btn-store">
+                          <!-- <span class="fa fa-apple fa-2x pull-left"></span>  -->
+                          <span class="btn-caption">App Store</span>
+                      </a>
+                      <a href="/" class="btn btn-store">
+                          <!-- <span class="fa fa-android fa-2x pull-left"></span>  -->
+                          <span class="btn-caption">Google Play</span>
+                      </a>
+                    </div>
+                  </p>
+            </div>
+          </div>
+              <div class="social-unit row text-center">
+                <p>Connect with us</p>
+                <div class="social-unit-a">
+                    <a href="/">
+                      <!-- <i class="fa fa-linkedin-square" style="font-size: 36px;"></i> -->
+                    </a>
+                    <a href="/">
+                      <!-- <i class="fa fa-twitter" style="font-size: 36px;"></i> -->
+                    </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+
+
+
+
+
+
+
+
+    
+</body>
+<script src="index.js" async></script>
+</html>
