@@ -3,7 +3,9 @@
 
 
 
+
 ![Screenshot 2024-02-10 235857](https://github.com/Mahakprajapat/hotstarclone/assets/147261796/f5a35d23-ed87-45fb-add3-ffdec29a9f1a)
+
 
 
 
